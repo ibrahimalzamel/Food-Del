@@ -8,6 +8,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
+      
         <img src={assets.logo} alt="" className='logo' />
         <ul className="navbar-menu">
           <li onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>Home</li>
@@ -22,6 +23,7 @@ const Navbar = () => {
                 <div className='dot'></div>
             </div>
             <button>sign in</button>
+            
         </div>
     </div>
   )
