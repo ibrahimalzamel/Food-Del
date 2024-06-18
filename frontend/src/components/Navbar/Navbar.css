@@ -36,9 +36,27 @@ width: 150px;
 }
 
 .navbar button:hover{
-    background-color: #fff4f2;
+    background-color: #fae0db;
 }
 .navbar .active{
     padding-bottom: 2px;
     border-bottom: 2px solid #49557e;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+.navbar-search-icon{
+    position: relative;
+}
+
+.navbar-search-icon .dot{
+    position: relative;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius:5px;
+    top: -8px;
+    right: -8px;
+    
 }
